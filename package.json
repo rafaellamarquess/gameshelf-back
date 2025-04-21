@@ -1,4 +1,12 @@
 {
+  "name": "games-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'Nada para buildar aqui'"
+  },
   "dependencies": {
     "cloudinary": "^1.41.3",
     "dotenv": "^16.5.0",
