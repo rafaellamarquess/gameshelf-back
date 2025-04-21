@@ -9,7 +9,6 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
-// CORS configurado com variável de ambiente
 app.use(cors({
   origin: process.env.FRONTEND_URL
 }));
